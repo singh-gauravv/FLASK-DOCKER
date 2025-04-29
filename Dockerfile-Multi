@@ -19,6 +19,6 @@ COPY --from=builder /usr/local/lib/python3.9/site-packages/ /usr/local/lib/pytho
 
 COPY . .
 
-ENTRYPOINT ["pyhton","run.py"]
+ENTRYPOINT ["python","run.py"]
 
 
